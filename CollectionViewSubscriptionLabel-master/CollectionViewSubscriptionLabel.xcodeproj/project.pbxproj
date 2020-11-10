@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A9F36C7361C7771E1950AF9 /* libPods-CollectionViewSubscriptionLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646FC36FC82E96772CA8B077 /* libPods-CollectionViewSubscriptionLabel.a */; };
 		840A4BA22519CB3F00C21855 /* UITextView+PlaceHolderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A4BA12519CB3F00C21855 /* UITextView+PlaceHolderLabel.m */; };
+		84165256254FF93700C59E1D /* IFLYCustomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84165255254FF93700C59E1D /* IFLYCustomCollectionView.m */; };
+		8416525D254FFB8300C59E1D /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416525C254FFB8300C59E1D /* UIColor+HexColor.m */; };
+		8495E3A8255A6C4200FD80E3 /* DOneSectionTableViewHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495E3A7255A6C4200FD80E3 /* DOneSectionTableViewHeadView.m */; };
+		8495E3AF255A6C6400FD80E3 /* DOneSectionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495E3AD255A6C6400FD80E3 /* DOneSectionCollectionViewCell.m */; };
+		8495E3B0255A6C6400FD80E3 /* DOneSectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8495E3AE255A6C6400FD80E3 /* DOneSectionCollectionViewCell.xib */; };
+		8495E3B5255A6C7700FD80E3 /* JHCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495E3B3255A6C7700FD80E3 /* JHCollectionViewFlowLayout.m */; };
+		8495E3C3255A760B00FD80E3 /* JHCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495E3C2255A760B00FD80E3 /* JHCollectionReusableView.m */; };
+		8495E3C8255A79A300FD80E3 /* JHCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495E3C6255A79A200FD80E3 /* JHCollectionViewLayoutAttributes.m */; };
+		8495E3CD255A79C600FD80E3 /* ELCVFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495E3CC255A79C600FD80E3 /* ELCVFlowLayout.m */; };
 		E150BABE1AEA0DB0007D25B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E150BABD1AEA0DB0007D25B4 /* main.m */; };
 		E150BAC11AEA0DB0007D25B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E150BAC01AEA0DB0007D25B4 /* AppDelegate.m */; };
 		E150BAC41AEA0DB0007D25B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E150BAC31AEA0DB0007D25B4 /* ViewController.m */; };
@@ -31,8 +41,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		840A4BA02519CB3F00C21855 /* UITextView+PlaceHolderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextView+PlaceHolderLabel.h"; path = "../../UITextView+PlaceHolderLabel.h"; sourceTree = "<group>"; };
-		840A4BA12519CB3F00C21855 /* UITextView+PlaceHolderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextView+PlaceHolderLabel.m"; path = "../../UITextView+PlaceHolderLabel.m"; sourceTree = "<group>"; };
+		646FC36FC82E96772CA8B077 /* libPods-CollectionViewSubscriptionLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CollectionViewSubscriptionLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840A4BA02519CB3F00C21855 /* UITextView+PlaceHolderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+PlaceHolderLabel.h"; sourceTree = "<group>"; };
+		840A4BA12519CB3F00C21855 /* UITextView+PlaceHolderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+PlaceHolderLabel.m"; sourceTree = "<group>"; };
+		84165254254FF93700C59E1D /* IFLYCustomCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFLYCustomCollectionView.h; sourceTree = "<group>"; };
+		84165255254FF93700C59E1D /* IFLYCustomCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFLYCustomCollectionView.m; sourceTree = "<group>"; };
+		8416525B254FFB8300C59E1D /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		8416525C254FFB8300C59E1D /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		8495E3A6255A6C4200FD80E3 /* DOneSectionTableViewHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOneSectionTableViewHeadView.h; sourceTree = "<group>"; };
+		8495E3A7255A6C4200FD80E3 /* DOneSectionTableViewHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOneSectionTableViewHeadView.m; sourceTree = "<group>"; };
+		8495E3AC255A6C6400FD80E3 /* DOneSectionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOneSectionCollectionViewCell.h; sourceTree = "<group>"; };
+		8495E3AD255A6C6400FD80E3 /* DOneSectionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOneSectionCollectionViewCell.m; sourceTree = "<group>"; };
+		8495E3AE255A6C6400FD80E3 /* DOneSectionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DOneSectionCollectionViewCell.xib; sourceTree = "<group>"; };
+		8495E3B3255A6C7700FD80E3 /* JHCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		8495E3B4255A6C7700FD80E3 /* JHCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		8495E3C1255A760B00FD80E3 /* JHCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionReusableView.h; sourceTree = "<group>"; };
+		8495E3C2255A760B00FD80E3 /* JHCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionReusableView.m; sourceTree = "<group>"; };
+		8495E3C6255A79A200FD80E3 /* JHCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		8495E3C7255A79A300FD80E3 /* JHCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		8495E3CB255A79C600FD80E3 /* ELCVFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCVFlowLayout.h; sourceTree = "<group>"; };
+		8495E3CC255A79C600FD80E3 /* ELCVFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCVFlowLayout.m; sourceTree = "<group>"; };
+		CCD190AE4D8BBC6E5C9E4216 /* Pods-CollectionViewSubscriptionLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewSubscriptionLabel.release.xcconfig"; path = "Target Support Files/Pods-CollectionViewSubscriptionLabel/Pods-CollectionViewSubscriptionLabel.release.xcconfig"; sourceTree = "<group>"; };
 		E150BAB81AEA0DB0007D25B4 /* CollectionViewSubscriptionLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewSubscriptionLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E150BABC1AEA0DB0007D25B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E150BABD1AEA0DB0007D25B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +81,7 @@
 		E150BAE61AEA0E1A007D25B4 /* CollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeaderView.m; sourceTree = "<group>"; };
 		E150BAE81AEA0E41007D25B4 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		E150BAE91AEA0E41007D25B4 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		F2DD18787FF3679C962E367D /* Pods-CollectionViewSubscriptionLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewSubscriptionLabel.debug.xcconfig"; path = "Target Support Files/Pods-CollectionViewSubscriptionLabel/Pods-CollectionViewSubscriptionLabel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A9F36C7361C7771E1950AF9 /* libPods-CollectionViewSubscriptionLabel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +103,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B9EC1BB258BAF827F0AAB3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2DD18787FF3679C962E367D /* Pods-CollectionViewSubscriptionLabel.debug.xcconfig */,
+				CCD190AE4D8BBC6E5C9E4216 /* Pods-CollectionViewSubscriptionLabel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84165251254FF42900C59E1D /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E150BAE11AEA0DCB007D25B4 /* UICollectionViewLeftAlignedLayout */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		8416525A254FFB6D00C59E1D /* Catergary */ = {
+			isa = PBXGroup;
+			children = (
+				8416525B254FFB8300C59E1D /* UIColor+HexColor.h */,
+				8416525C254FFB8300C59E1D /* UIColor+HexColor.m */,
+			);
+			path = Catergary;
+			sourceTree = "<group>";
+		};
+		8495E3AB255A6C5200FD80E3 /* 滚动视图 */ = {
+			isa = PBXGroup;
+			children = (
+				8495E3CB255A79C600FD80E3 /* ELCVFlowLayout.h */,
+				8495E3CC255A79C600FD80E3 /* ELCVFlowLayout.m */,
+				8495E3C7255A79A300FD80E3 /* JHCollectionViewLayoutAttributes.h */,
+				8495E3C6255A79A200FD80E3 /* JHCollectionViewLayoutAttributes.m */,
+				8495E3C1255A760B00FD80E3 /* JHCollectionReusableView.h */,
+				8495E3C2255A760B00FD80E3 /* JHCollectionReusableView.m */,
+				8495E3B4255A6C7700FD80E3 /* JHCollectionViewFlowLayout.h */,
+				8495E3B3255A6C7700FD80E3 /* JHCollectionViewFlowLayout.m */,
+				8495E3A6255A6C4200FD80E3 /* DOneSectionTableViewHeadView.h */,
+				8495E3A7255A6C4200FD80E3 /* DOneSectionTableViewHeadView.m */,
+				8495E3AC255A6C6400FD80E3 /* DOneSectionCollectionViewCell.h */,
+				8495E3AD255A6C6400FD80E3 /* DOneSectionCollectionViewCell.m */,
+				8495E3AE255A6C6400FD80E3 /* DOneSectionCollectionViewCell.xib */,
+			);
+			path = "滚动视图";
+			sourceTree = "<group>";
+		};
+		C4117852E2CF13EEEE88247F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				646FC36FC82E96772CA8B077 /* libPods-CollectionViewSubscriptionLabel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E150BAAF1AEA0DB0007D25B4 = {
 			isa = PBXGroup;
 			children = (
 				E150BABA1AEA0DB0007D25B4 /* CollectionViewSubscriptionLabel */,
 				E150BAD41AEA0DB0007D25B4 /* CollectionViewSubscriptionLabelTests */,
 				E150BAB91AEA0DB0007D25B4 /* Products */,
+				1B9EC1BB258BAF827F0AAB3C /* Pods */,
+				C4117852E2CF13EEEE88247F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,17 +180,13 @@
 		E150BABA1AEA0DB0007D25B4 /* CollectionViewSubscriptionLabel */ = {
 			isa = PBXGroup;
 			children = (
-				840A4BA02519CB3F00C21855 /* UITextView+PlaceHolderLabel.h */,
-				840A4BA12519CB3F00C21855 /* UITextView+PlaceHolderLabel.m */,
-				E150BAE11AEA0DCB007D25B4 /* UICollectionViewLeftAlignedLayout */,
+				8495E3AB255A6C5200FD80E3 /* 滚动视图 */,
+				8416525A254FFB6D00C59E1D /* Catergary */,
+				84165251254FF42900C59E1D /* CollectionView */,
 				E150BABF1AEA0DB0007D25B4 /* AppDelegate.h */,
 				E150BAC01AEA0DB0007D25B4 /* AppDelegate.m */,
 				E150BAC21AEA0DB0007D25B4 /* ViewController.h */,
 				E150BAC31AEA0DB0007D25B4 /* ViewController.m */,
-				E150BAE51AEA0E1A007D25B4 /* CollectionHeaderView.h */,
-				E150BAE61AEA0E1A007D25B4 /* CollectionHeaderView.m */,
-				E150BAE81AEA0E41007D25B4 /* CollectionViewCell.h */,
-				E150BAE91AEA0E41007D25B4 /* CollectionViewCell.m */,
 				E150BAC51AEA0DB0007D25B4 /* Main.storyboard */,
 				E150BAC81AEA0DB0007D25B4 /* Images.xcassets */,
 				E150BACA1AEA0DB0007D25B4 /* LaunchScreen.xib */,
@@ -141,8 +224,16 @@
 		E150BAE11AEA0DCB007D25B4 /* UICollectionViewLeftAlignedLayout */ = {
 			isa = PBXGroup;
 			children = (
+				840A4BA02519CB3F00C21855 /* UITextView+PlaceHolderLabel.h */,
+				840A4BA12519CB3F00C21855 /* UITextView+PlaceHolderLabel.m */,
+				E150BAE51AEA0E1A007D25B4 /* CollectionHeaderView.h */,
+				E150BAE61AEA0E1A007D25B4 /* CollectionHeaderView.m */,
+				E150BAE81AEA0E41007D25B4 /* CollectionViewCell.h */,
+				E150BAE91AEA0E41007D25B4 /* CollectionViewCell.m */,
 				E150BAE21AEA0DCB007D25B4 /* UICollectionViewLeftAlignedLayout.h */,
 				E150BAE31AEA0DCB007D25B4 /* UICollectionViewLeftAlignedLayout.m */,
+				84165254254FF93700C59E1D /* IFLYCustomCollectionView.h */,
+				84165255254FF93700C59E1D /* IFLYCustomCollectionView.m */,
 			);
 			path = UICollectionViewLeftAlignedLayout;
 			sourceTree = "<group>";
@@ -154,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E150BADB1AEA0DB0007D25B4 /* Build configuration list for PBXNativeTarget "CollectionViewSubscriptionLabel" */;
 			buildPhases = (
+				2F522264029241434BFC69BB /* [CP] Check Pods Manifest.lock */,
 				E150BAB41AEA0DB0007D25B4 /* Sources */,
 				E150BAB51AEA0DB0007D25B4 /* Frameworks */,
 				E150BAB61AEA0DB0007D25B4 /* Resources */,
+				9C71167A708B40B3384F4E39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8495E3B0255A6C6400FD80E3 /* DOneSectionCollectionViewCell.xib in Resources */,
 				E150BAC71AEA0DB0007D25B4 /* Main.storyboard in Resources */,
 				E150BACC1AEA0DB0007D25B4 /* LaunchScreen.xib in Resources */,
 				E150BAC91AEA0DB0007D25B4 /* Images.xcassets in Resources */,
@@ -244,17 +338,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F522264029241434BFC69BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollectionViewSubscriptionLabel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C71167A708B40B3384F4E39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollectionViewSubscriptionLabel/Pods-CollectionViewSubscriptionLabel-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CollectionViewSubscriptionLabel/Pods-CollectionViewSubscriptionLabel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E150BAB41AEA0DB0007D25B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8495E3A8255A6C4200FD80E3 /* DOneSectionTableViewHeadView.m in Sources */,
 				E150BAEA1AEA0E41007D25B4 /* CollectionViewCell.m in Sources */,
 				840A4BA22519CB3F00C21855 /* UITextView+PlaceHolderLabel.m in Sources */,
 				E150BAE41AEA0DCB007D25B4 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				8495E3CD255A79C600FD80E3 /* ELCVFlowLayout.m in Sources */,
+				84165256254FF93700C59E1D /* IFLYCustomCollectionView.m in Sources */,
+				8495E3C3255A760B00FD80E3 /* JHCollectionReusableView.m in Sources */,
 				E150BAC41AEA0DB0007D25B4 /* ViewController.m in Sources */,
+				8416525D254FFB8300C59E1D /* UIColor+HexColor.m in Sources */,
 				E150BAC11AEA0DB0007D25B4 /* AppDelegate.m in Sources */,
 				E150BABE1AEA0DB0007D25B4 /* main.m in Sources */,
+				8495E3AF255A6C6400FD80E3 /* DOneSectionCollectionViewCell.m in Sources */,
+				8495E3C8255A79A300FD80E3 /* JHCollectionViewLayoutAttributes.m in Sources */,
+				8495E3B5255A6C7700FD80E3 /* JHCollectionViewFlowLayout.m in Sources */,
 				E150BAE71AEA0E1A007D25B4 /* CollectionHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +524,7 @@
 		};
 		E150BADC1AEA0DB0007D25B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DD18787FF3679C962E367D /* Pods-CollectionViewSubscriptionLabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EH5L6T78SH;
@@ -390,6 +536,7 @@
 		};
 		E150BADD1AEA0DB0007D25B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD190AE4D8BBC6E5C9E4216 /* Pods-CollectionViewSubscriptionLabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EH5L6T78SH;

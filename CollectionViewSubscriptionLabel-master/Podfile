@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+
+target "CollectionViewSubscriptionLabel" do
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'MJExtension'
+end
